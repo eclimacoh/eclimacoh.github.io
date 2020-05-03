@@ -1,7 +1,3 @@
-Emphasis, aka italics, with *asterisks* or _underscores_.
+## Dashboard 2 v0.1
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
+Este un dashboard básico creado con Tailwind CSS.
