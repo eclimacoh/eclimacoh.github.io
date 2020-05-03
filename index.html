@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
 </head>
 <body class="bg-gray-300">
-    <div>
+    <div class="h-screen flex flex-col">
         <!-- Cabecera -->
-        <header class="flex">  <!--bien-->
+        <header class="flex flex-shrink-0">  <!--bien-->
             <!-- Logo -->
-            <div class="flex-shrink-0 px-4 py-3 bg-gray-800"> <!--bien-->
-                <button class="flex items-center"> <!--bien-->
+            <div class="w-64 flex-shrink-0 px-4 py-3 bg-gray-800"> <!--bien-->
+                <button class="block w-full flex items-center"> <!--bien-->
                     <img 
                         class="h-8 w-8 rounded-full object-cover"    
                         src="ElioClimaco.jpg" 
                         alt=""
                     /> <!--imagen bien-->
-                    <span class="ml-4 text-sm font-medium text-white">
+                    <span class="ml-4 mr-2 text-sm font-medium text-white">
                         Elio Clímaco
                     </span>
-                    <i class="fas fa-chevron-down pt-0 text-xs ml-10 stroke-current text-gray-400"></i> <!--bien-->
+                    <i class="fas fa-chevron-down pt-0 text-xs ml-auto stroke-current text-gray-400"></i> <!--bien-->
                 </button>
             </div><!-- Logo -->
 
@@ -45,10 +45,12 @@
                             <i class="fas fa-search fill-current text-gray-500 text-xs"></i>
                         </span>
                         <input 
-                        type="text"
-                        placeholder="Buscar"
-                        class=" block pl-8 pr-4 py-2 leading-tight w-full bg-gray-900 rounded-md 
-                                text-sm placeholder-gray-400 text-white">                            
+                            type="text"
+                            placeholder="Buscar"
+                            class=" block pl-8 pr-4 py-2 leading-tight w-full 
+                                    bg-gray-900 rounded-md text-sm placeholder-gray-400 
+                                    text-white focus:bg-white focus:placeholder-gray-600 
+                                    focus:outline-noness focus:text-gray-900">                            
                     </div>
 
 
@@ -64,13 +66,19 @@
             
         </header><!-- Cabecera -->
 
-        <div></div>
 
         <!-- Cuerpo -->
-        <main>
-            <div></div>
-            <div></div>
-        </main><!-- Cuerpo -->
+        <div class="flex-1 flex">
+            <div class="w-64 bg-gray-100">
+
+            </div>
+    
+            <!-- Cuerpo -->
+            <main>
+                <div></div>
+                <div></div>
+            </main><!-- Cuerpo -->
+        </div><!-- Cuerpo -->
     </div>
 </body>
 </html>
